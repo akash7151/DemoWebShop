@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="" value=""/>
+  <parameter name="ln" value="dake"/>
+  <parameter name="password" value="dell@123"/>
+  <parameter name="conpass" value="dell@123"/>
+  <parameter name="fn" value="jay"/>
+  <parameter name="email" value="jay@5gmail.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="DemoWebShop">
+        <methods>
+          <include name="maximizeScreen"/>
+          <include name="paymentMethod"/>
+          <include name="confirmOrder"/>
+          <include name="orderDetails"/>
+          <include name="enterUrl"/>
+          <include name="paymentInformation"/>
+          <include name="openBrowser"/>
+          <include name="addTocard"/>
+          <include name="bilingAddress"/>
+          <include name="pageloadTimeout"/>
+          <include name="shipingAddress"/>
+          <include name="cheakOut"/>
+        </methods>
+      </class> <!-- DemoWebShop -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

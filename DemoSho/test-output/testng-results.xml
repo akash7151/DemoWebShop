@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23596" started-at="2022-06-17T19:36:34 IST" finished-at="2022-06-17T19:36:58 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23596" started-at="2022-06-17T19:36:34 IST" finished-at="2022-06-17T19:36:58 IST">
+      <class name="DemoWebShop">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:DemoWebShop@37374a5e]" name="openBrowser" is-config="true" duration-ms="2439" started-at="2022-06-17T19:36:31 IST" finished-at="2022-06-17T19:36:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:DemoWebShop@37374a5e]" name="enterUrl" is-config="true" duration-ms="3259" started-at="2022-06-17T19:36:34 IST" finished-at="2022-06-17T19:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="maximizeScreen()[pri:0, instance:DemoWebShop@37374a5e]" name="maximizeScreen" is-config="true" duration-ms="139" started-at="2022-06-17T19:36:37 IST" finished-at="2022-06-17T19:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeScreen -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="5" started-at="2022-06-17T19:36:37 IST" finished-at="2022-06-17T19:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="registerData()[pri:1, instance:DemoWebShop@37374a5e]" name="registerData" duration-ms="6140" started-at="2022-06-17T19:36:37 IST" finished-at="2022-06-17T19:36:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerData -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="12" started-at="2022-06-17T19:36:44 IST" finished-at="2022-06-17T19:36:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="loginData(java.lang.String,java.lang.String)[pri:2, instance:DemoWebShop@37374a5e]" name="loginData" duration-ms="3079" started-at="2022-06-17T19:36:44 IST" data-provider="getData" finished-at="2022-06-17T19:36:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jay@12gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dell@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="14" started-at="2022-06-17T19:36:47 IST" finished-at="2022-06-17T19:36:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="addTocard()[pri:3, instance:DemoWebShop@37374a5e]" name="addTocard" duration-ms="3102" started-at="2022-06-17T19:36:47 IST" finished-at="2022-06-17T19:36:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTocard -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="6" started-at="2022-06-17T19:36:50 IST" finished-at="2022-06-17T19:36:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="cheakOut()[pri:4, instance:DemoWebShop@37374a5e]" name="cheakOut" duration-ms="1983" started-at="2022-06-17T19:36:50 IST" finished-at="2022-06-17T19:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cheakOut -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="12" started-at="2022-06-17T19:36:52 IST" finished-at="2022-06-17T19:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="bilingAddress()[pri:5, instance:DemoWebShop@37374a5e]" name="bilingAddress" duration-ms="694" started-at="2022-06-17T19:36:52 IST" finished-at="2022-06-17T19:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bilingAddress -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="10" started-at="2022-06-17T19:36:52 IST" finished-at="2022-06-17T19:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="shipingAddress()[pri:6, instance:DemoWebShop@37374a5e]" name="shipingAddress" duration-ms="987" started-at="2022-06-17T19:36:52 IST" finished-at="2022-06-17T19:36:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shipingAddress -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="11" started-at="2022-06-17T19:36:53 IST" finished-at="2022-06-17T19:36:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="paymentMethod()[pri:7, instance:DemoWebShop@37374a5e]" name="paymentMethod" duration-ms="445" started-at="2022-06-17T19:36:53 IST" finished-at="2022-06-17T19:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentMethod -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="13" started-at="2022-06-17T19:36:54 IST" finished-at="2022-06-17T19:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="paymentInformation()[pri:8, instance:DemoWebShop@37374a5e]" name="paymentInformation" duration-ms="387" started-at="2022-06-17T19:36:54 IST" finished-at="2022-06-17T19:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentInformation -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="19" started-at="2022-06-17T19:36:54 IST" finished-at="2022-06-17T19:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="confirmOrder()[pri:9, instance:DemoWebShop@37374a5e]" name="confirmOrder" duration-ms="356" started-at="2022-06-17T19:36:54 IST" finished-at="2022-06-17T19:36:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrder -->
+        <test-method status="PASS" signature="pageloadTimeout()[pri:0, instance:DemoWebShop@37374a5e]" name="pageloadTimeout" is-config="true" duration-ms="13" started-at="2022-06-17T19:36:55 IST" finished-at="2022-06-17T19:36:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloadTimeout -->
+        <test-method status="PASS" signature="orderDetails()[pri:10, instance:DemoWebShop@37374a5e]" name="orderDetails" duration-ms="2835" started-at="2022-06-17T19:36:55 IST" finished-at="2022-06-17T19:36:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderDetails -->
+      </class> <!-- DemoWebShop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
