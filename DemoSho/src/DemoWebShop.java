@@ -133,5 +133,5 @@ public void orderDetails() {
 	driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div/div/div[1]/a[2]")).click();
 log.info("Order bill dowanload succesfully");
 }
-
+System.out.println("Project succesfully ");
 }
